@@ -26,6 +26,8 @@ header{
   padding: 0 24px;
   margin-right: 1rem;
   border-bottom: 1px solid #BC8DA0;
+  position: fixed;
+  z-index: 1;
 }
 
 .hide{
@@ -51,10 +53,10 @@ header{
 /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 8%; /* Set the width of the sidebar */
+  width: 10%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 10; /* Stay at the top */
+  top: 72px; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -87,11 +89,25 @@ header{
   .sidenav a {font-size: 18px;}
 }
 
+/* Content */
+
+.content{
+  position: relative;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1050px;
+  margin: auto;
+}
+
 /* Bio Style */
 
 #main{
   background-color: #BC8DA0;
-  Left: 20%;
+  Left: 10%;
+  width: 100%;
+  position:relative;
 }
 
 .banner .right{
@@ -108,11 +124,12 @@ header{
   width: 100%;
 }
 
-#main .learn{
+#main .info{
   justify-content: center;
+  padding-left: 10px;
 }
 
-.banner .learn{
+.banner .info{
   display: flex;
   flex-direction: column;
   width: 40%;
