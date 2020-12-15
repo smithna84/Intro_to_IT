@@ -19,15 +19,15 @@ body{
 
 /* Header Style */
 header{
-  display: flex;
   justify-content: space-between;
   align-items: center;
   height: 64px;
-  padding: 0 24px;
+  width: 100%;
+  top:0%;
   margin-right: 1rem;
   border-bottom: 1px solid #BC8DA0;
   position: fixed;
-  z-index: 1;
+  z-index: 0;
 }
 
 .hide{
@@ -98,19 +98,32 @@ header{
   flex-direction: column;
   align-items: center;
   max-width: 1050px;
-  margin: auto;
+  margin:auto;
+}
+
+h1{
+  font-family: Merriweather, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2{
+  font-family: Merriweather, serif;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 /* Bio Style */
 
 #main{
-  background-color: #BC8DA0;
   Left: 10%;
   width: 100%;
   position:relative;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.banner .right{
+.bio .right{
   margin: 2rem 1.5rem;
   width: 60%;
 }
@@ -120,8 +133,10 @@ header{
 }
 
 .image img{
-  height: auto;
-  width: 100%;
+  position: relative;
+  left:30%;
+  height: 60%;
+  width: 30%;
 }
 
 #main .info{
@@ -129,7 +144,7 @@ header{
   padding-left: 10px;
 }
 
-.banner .info{
+.bio .info{
   display: flex;
   flex-direction: column;
   width: 40%;
@@ -141,4 +156,67 @@ header{
 
 #main p{
 margin-bottom: 1.5rem;
+}
+
+/* Interest in IT Section */
+
+#interest{
+  Left: 10%;
+  width: 100%;
+  position:relative;
+
+}
+
+.it{
+
+}
+
+/* Ideal Job Section */
+
+#job {
+Left: 10%;
+width: 100%;
+position:relative;
+display: flex;
+}
+.Ideal{
+
+}
+
+.jobDetails{
+  margin: 5px;
+  padding-right: 5px;
+  width: 60%;
+}
+
+.image{
+
+}
+.images img{
+  height: 100%;
+  width: 70%;
+}
+
+/* Personal Profile Section */
+
+#profile{
+  Left: 10%;
+  width: 100%;
+  position:relative;
+}
+
+.personal{
+
+}
+
+/* Project Idea Section */
+
+#project{
+  Left: 10%;
+  width: 100%;
+  position:relative;
+}
+
+.idea{
+
 }
