@@ -114,20 +114,25 @@ h1{
 h2{
   font-family: Merriweather, serif;
   font-size: 2rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 h3{
   font-family: Merriweather, serif;
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 h4{
   font-family: Merriweather, serif;
   font-size: 1.2rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
+
+p{
+  line-height: 1.5rem;
+}
+
 /* Bio Style */
 
 #main{
@@ -225,6 +230,17 @@ margin: 25px 0px 25px 0px;
 .images img{
   height: 100%;
   width: 70%;
+}
+
+/* Parallax2 Style */
+.parallax2 {
+  background-image: url("000424380013_10A.jpg");
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Personal Profile Section */
