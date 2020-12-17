@@ -137,7 +137,7 @@ h4{
   display: flex;
   flex-direction: row-reverse;
   bottom: 5%;
-  background-color: #BC8DA0;
+  background-color: #BFD7EA;
 }
 
 .bio .right{
@@ -173,6 +173,17 @@ h4{
 
 #main p{
 margin-bottom: 1.5rem;
+}
+
+/* Parallax Style */
+.parallax {
+  background-image: url("000424380013_10A.jpg");
+  height: 250px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Interest in IT Section */
