@@ -69,7 +69,7 @@ header{
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: #818181;
   display: block;
 }
@@ -100,7 +100,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1050px;
+  max-width: 1080px;
   margin:auto;
   z-index: 0;
 }
@@ -172,7 +172,7 @@ p{
   width: 40%;
 }
 
-#main h1{
+#main h2{
   margin-bottom: 1.5rem;
 }
 
@@ -183,7 +183,7 @@ margin-bottom: 1.5rem;
 /* Parallax Style */
 .parallax {
   background-image: url("000424380013_10A.jpg");
-  height: 250px;
+  height: 750px;
   width: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -201,8 +201,11 @@ margin-bottom: 1.5rem;
 
 }
 
-.it{
-
+.it h2{
+padding: 10px;
+}
+.it p{
+  padding: 10px;
 }
 
 /* Ideal Job Section */
@@ -214,14 +217,27 @@ position:relative;
 display: flex;
 margin: 25px 0px 25px 0px;
 }
-.Ideal{
-
-}
 
 .jobDetails{
-  margin: 5px;
+  margin-right: 5px;
   padding-right: 5px;
   width: 60%;
+}
+
+.jobDetails h2{
+  padding: 10px;
+}
+
+.jobDetails h3{
+  padding: 10px;
+}
+
+.jobDetails h4{
+  padding: 10px;
+}
+
+.jobDetails p{
+  padding: 10px;
 }
 
 .image{
@@ -256,6 +272,26 @@ margin: 25px 0px 25px 0px;
 
 }
 
+.personal h2{
+  padding: 10px;
+}
+
+.personal h3{
+  padding: 10px;
+}
+
+.personal h4{
+  padding: 10px;
+}
+
+.personal img{
+  padding: 10px;
+}
+
+.personal p{
+  padding: 10px;
+}
+
 /* Project Idea Section */
 
 #project{
@@ -267,4 +303,20 @@ margin: 25px 0px 25px 0px;
 
 .idea{
 
+}
+
+.idea h2{
+  padding: 10px;
+}
+
+.idea h3{
+  padding: 10px;
+}
+
+.idea h4{
+  padding: 10px;
+}
+
+.idea p{
+  padding: 10px;
 }
